@@ -1,0 +1,23 @@
+<html>
+	<body>
+		<p id="week"></p>
+
+			<script>
+				var days = ["Monday", "Tuesday", "Wednesday", "Thursday","Friday","Saturday","Sunday"];
+				var text = "";
+				var i;
+				for (i = 1; i <= 1000; i++) {
+				if (i == 1) {
+				text += i + " " + "elephant" + "<br>";
+				}
+				else {
+				text += i + " " + "elephants" + "<br>";
+				}
+				}
+				
+				
+
+document.getElementById("week").innerHTML = text;
+</script>
+</body>
+</html>
